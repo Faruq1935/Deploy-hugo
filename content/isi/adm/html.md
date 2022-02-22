@@ -16,3 +16,6 @@ categories:
 # image: https://lorempixel.com/720/380
 # thumbnail: https://lorempixel.com/320/160
 ---
+
+
+Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet. Ini dapat dibantu oleh teknologi seperti Cascading Style Sheets dan bahasa scripting seperti JavaScript dan VBScript.
