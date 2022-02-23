@@ -1,6 +1,6 @@
 baseURL = "https://sinaurien.netlify.app/"
 languageCode = "id-id"
-title = "sinauRien"
+title = "sinaudhisik"
 theme = "jawa"
 summaryLength = 10
 paginate = 6
