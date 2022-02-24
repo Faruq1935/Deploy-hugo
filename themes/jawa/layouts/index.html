@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+<!-- BAGIAN JUMBOTRON -->
 <header class="jumbotron jumbotron-fluid mt-5 jumbotron-body">
     <div class="container">
       <div class="row">
@@ -6,19 +8,17 @@
             <img class="img-jumbotron" src="/assets/img/jumbotron.png" alt="">
             <h1 class="display-4 font-weight-bold">sinaudhisik</h1>
             <p class="lead" style="margin-top: -15px;">Budayakan <strong class="font-weight-bold">membaca</strong> <i>(sampai paham)</i></p>
-            <div class="mt-4">
-              
+            <div class="mt-4">   
         </div>
         </div>
         <div class="col-lg-6 d-none d-lg-block">
-          
         </div>
       </div>
     </div>
 </header>
+<!-- BAGIAN AKHIR JUMBOTRON -->
 
-
-
+<!-- BAGIAN ARTIKEL-->
 <div class="container">
   <div class="row">
     <div class="container artikel-body pt-5">
@@ -31,7 +31,7 @@
   </div>
       {{ range (.Paginate (where .Site.RegularPages "Section" "isi")).Pages }}
       <div class="col-md-6 col-lg-4 mb-4 d-flex">
-          <div class="card shadow-sm p-3 mb-2 bg-body" style="border-radius: 12px;">
+          <div class="card shadow-sm p-3 mb-2 bg-body" style="border-radius: 8px;">
               <a href=" {{ .Permalink }} ">
                   <img src="/img/{{ .Params.featured_image }}" alt="sinaudhisik" class="card-img-top img-index">
               </a>
@@ -43,22 +43,63 @@
                       </h6>
                       <div class="text-secondary small">
                         {{ .Description }}
-                      </div>
-                  
+                      </div>         
               </div>
             </div>
           </div>
-          {{ end }}
-
-         
+          {{ end }}     
       </div>
   </div>
+<!-- AKHIR BAGIAN ARTIKEL -->
+
+<!-- BAGIAN PAGINATION -->
   <div class="container text-center mt-4 mb-5">
     <div class="artikel-pagination">
       {{ template "_internal/pagination.html" . }}
     </div>
   </div>
+<!-- AKHIR BAGIAN PAGINATION -->
+
+<!-- BAGIAN TENTANG BLOG -->
+<div class="tentang-blog pt-3 pb-3 pt-md-5 pb-md-5">
+  <div class="container text-start">
+    <h3 class="h6-tentang">
+      <i class="fas fa-seedling pe-2"></i>"Sinau dhisik"
+    </h3>
+    <p class="penjelasan pt-1">
+      <i class="fas fa-quote-left pe-2"></i>Blog ini saya buat untuk dokumtasi belajar saya sendiri, tapi menurutku lebih baik membagikan ilmu ke orang lain agar bermanfaat.<br>
+      <span class="ms-4"></span> Semoga blog ini bisa membantu permasalahan kalian atau membantu kalian untuk belajar.<i class="fas fa-quote-right ps-2"></i>
+    </p>
+  </div>
 </div>
+<!-- AKHIR BAGIAN TENTANG BLOG-->
+
+<!-- BAGIAN KATEGORI -->
+<div class="container">
+  <div class="text-center row my-5">
+    <div class="col-12">
+    <h2 class="h2">Artikel Berdasarkan Kategori</h2>
+    <p class="lead text-muted">Cari Artikel Yang Kamu Ingin Baca</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+    <div class="card-header">
+    <h5 class="card-title h5-kategori text-center">Lorem</h5>
+    </div>
+    <div class="list-group list-group-flush shadow-sm">
+      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="flex-kontent">
+          <h6 class="my-1 h6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+          <img class="my-1 me-1" src="/assets/img/sid.png" width="60px" height="60px" alt="">
+        </div>
+      </a>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- AKHIR BAGIAN KATEGORI -->
 
 
 

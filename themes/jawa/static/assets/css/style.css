@@ -52,6 +52,14 @@ h6, .h6 {
 }
 /* akhir artikel */
 
+/* Bagian tenteang blog */
+.tentang-blog {
+    background-color: #def7e2;
+}
+
+
+/* akhir tentang blog */
+
 /* Bagian sidebar */
 .header-sidebar {
     font-size: 18px;
@@ -64,6 +72,13 @@ h6, .h6 {
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     color: #57cc99;
+}
+.h5-kategori {
+    background-color: #57cc99!important;
+}
+.card-header {
+    background-color: #57cc99!important;
+    
 }
 /* ===BAGIAN UKURAN MOBILE=== */
 
@@ -96,6 +111,12 @@ h6, .h6 {
 }
 /* akhir pagination */
 
+/* Bgian kategori */
+.flex-kontent {
+    display: flex;
+    align-items: flex-start;
+}
+/* akhir kategori */
 /* ======= */
 /* ======= */
 
