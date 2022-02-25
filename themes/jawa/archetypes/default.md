@@ -6,13 +6,17 @@ description: ""
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 slug: {{ .BaseFileName }}
 featured_image: "dhcp.png"
+
 tags:
-    - 
+    -
 
 categories:
-    - 
+    -
+
+bahasa:
+    -
+
+topik:
 
 
-# image: https://lorempixel.com/720/380
-# thumbnail: https://lorempixel.com/320/160
 ---
