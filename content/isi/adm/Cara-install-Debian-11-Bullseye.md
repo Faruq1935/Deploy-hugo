@@ -2,7 +2,7 @@
 author: "Faruq 1935"
 draft: false
 date: 2022-02-25T10:55:15+07:00
-description: ""
+description: "Cara Install Debian 11 Bullseye"
 title: "Cara Install Debian 11 Bullseye"
 slug: Cara-install-Debian-11-Bullseye
 featured_image: "debian.png"

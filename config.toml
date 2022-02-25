@@ -2,7 +2,7 @@ baseURL = "https://sinaudhisik.netlify.app/"
 languageCode = "id-id"
 title = "sinaudhisik"
 theme = "jawa"
-summaryLength = 10
+summaryLength = 8
 paginate = 6
 [author]
     name = "M Faruq Syarifudin"
