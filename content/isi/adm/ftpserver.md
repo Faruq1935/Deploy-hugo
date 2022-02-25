@@ -3,7 +3,7 @@ author: "Faruq 1935"
 draft: false
 date: 2022-02-25T10:48:04+07:00
 description: ""
-title: "Ftpserver"
+title: "FTP"
 slug: ftpserver
 featured_image: "dhcp.png"
 
