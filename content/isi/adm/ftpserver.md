@@ -1,6 +1,6 @@
 ---
 author: "Faruq 1935"
-draft: true
+draft: false
 date: 2022-02-25T10:48:04+07:00
 description: ""
 title: "Ftpserver"
