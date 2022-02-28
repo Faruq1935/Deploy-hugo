@@ -1,23 +1,4 @@
 {{ define "main" }}
-
-<!-- BAGIAN JUMBOTRON -->
-<header class="jumbotron jumbotron-fluid mt-5 jumbotron-body">
-    <div class="container">
-      <div class="row">
-        <div class="my-5 text-center">
-            <img class="img-jumbotron" src="/assets/img/jumbotron.png" alt="">
-            <h1 class="display-4 font-weight-bold">sinaudhisik</h1>
-            <p class="lead" style="margin-top: -15px;">Budayakan <strong class="font-weight-bold">membaca</strong> <i>(sampai paham)</i></p>
-            <div class="mt-4">   
-        </div>
-        </div>
-        <div class="col-lg-6 d-none d-lg-block">
-        </div>
-      </div>
-    </div>
-</header>
-<!-- BAGIAN AKHIR JUMBOTRON -->
-
 <!-- BAGIAN ARTIKEL-->
 <div class="container">
   <div class="row">
@@ -25,7 +6,7 @@
       <div class="row mb-5">
         <div class="">
            <h2 class="h2">Artikel Terbaru</h2>
-            <p class="lead">Mau cari artikel apa ?</p>
+            <p class="lead text-muted">Mau cari artikel apa ?</p>
         </div>
     </div>
   </div>
@@ -83,24 +64,26 @@
     </div>
   </div>
   <div class="row">
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
     <div class="col-12 col-md-6 col-lg-4 mb-4">
     <div class="card-header">
-    <h5 class="card-title h5-kategori text-center">Lorem</h5>
+    <h5 class="card-title h5-kategori text-center">{{ $name }}</h5>
     </div>
+    {{ range . }}
     <div class="list-group list-group-flush shadow-sm">
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+      <a href="{{ .Permalink }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="flex-kontent">
-          <h6 class="my-1 h6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
-          <img class="my-1 me-1" src="/assets/img/sid.png" width="60px" height="60px" alt="">
+          <h6 class="my-1 h6">{{ .Title }}</h6>
+          <div class="flex-gambar-kontent">
+            <img class="my-1 me-1 gambar-kategori" src="/assets/img/sid.png" width="60px" height="60px" alt="">
+          </div>
         </div>
       </a>
     </div>
+    {{end}}
+  </div>
+  {{ end }}
 </div>
 </div>
-</div>
-
 <!-- AKHIR BAGIAN KATEGORI -->
-
-
-
 {{ end }}

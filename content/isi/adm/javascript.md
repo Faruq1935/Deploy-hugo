@@ -3,14 +3,14 @@ author: "M Faruq Syarifudin"
 # draft: true
 date: 2022-01-25T21:39:08+07:00
 description: "Ini adalah deskripsi artikel"
-title: "Javascript"
+title: "javaScript Aritmatika"
 slug: javascript
 featured_image: "dhcp.png"
 tags:
-    - FTP Server
+    - 
 
 categories:
-    - FTP Server
+    - Web Frontend
 
 
 

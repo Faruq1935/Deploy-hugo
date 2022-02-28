@@ -116,6 +116,9 @@ h6, .h6 {
     display: flex;
     align-items: flex-start;
 }
+.flex-gambar-kontent {
+    margin-left: 7em;
+}
 /* akhir kategori */
 /* ======= */
 /* ======= */

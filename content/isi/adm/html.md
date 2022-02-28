@@ -3,14 +3,15 @@ author: "M Faruq Syarifudin"
 # draft: true
 date: 2022-01-25T21:38:58+07:00
 description: "Ini adalah deskripsi artikel"
-title: "Html"
+title: "Cara Membuat Tabel"
 slug: html
 featured_image: "dhcp.png"
 tags:
     - 
 
 categories:
-    - FTP Server
+    - html
+    - Web Frontend
 
 
 # image: https://lorempixel.com/720/380

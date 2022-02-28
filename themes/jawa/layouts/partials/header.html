@@ -1,12 +1,3 @@
-<head>
-
-  {{- partial "head.html" . }}
-
-  <style>
-   
-  </style>
-
-</head>
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #57cc99;">
   <div class="container">
@@ -42,4 +33,24 @@
     </div>
   </div>
 </nav>
+<!-- BAGIAN JUMBOTRON -->
+{{ if .IsHome }}
+<header class="jumbotron jumbotron-fluid mt-5 jumbotron-body">
+  <div class="container">
+    <div class="row">
+      <div class="my-5 text-center">
+          <img class="img-jumbotron" src="/assets/img/jumbotron.png" alt="">
+          <h1 class="display-4 font-weight-bold">sinaudhisik</h1>
+          <p class="lead text-muted" style="margin-top: -15px;">Budayakan <strong class="font-weight-bold">membaca</strong> <i>(sampai paham)</i></p>
+          <div class="mt-4">   
+      </div>
+      </div>
+      <div class="col-lg-6 d-none d-lg-block">
+      </div>
+    </div>
+  </div>
+</header>
+{{ end }}
+<!-- BAGIAN AKHIR JUMBOTRON -->
+
 <!-- {{ .Site.Title }} -->

@@ -11,7 +11,7 @@ tags:
     -
 
 categories:
-    -
+    - Jaringan Komputer
 
 bahasa:
     -
