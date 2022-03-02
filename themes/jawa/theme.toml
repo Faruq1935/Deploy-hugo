@@ -4,7 +4,7 @@
  name = "jawa"
  license = "MIT"
  licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
- homepage = "http://example.com/"
+ homepage = "https://sinaudhisik.netlify.app/"
  tags = []
  features = []
  min_version = "0.41.0"

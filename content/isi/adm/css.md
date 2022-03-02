@@ -30,6 +30,7 @@ categories:
 **Elaina X Debian**
 
 ![Elaina X Debian](/static/img/debian.png)
+
 [link ke sinaundisik](https://sinaudhisik.netlify.app/ "Pergi ke sinaundisik.my.id")
 https://sinaudhisik.netlify.app/
 

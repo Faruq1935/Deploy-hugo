@@ -4,3 +4,10 @@
 
 [build.environment]
   HUGO_VERSION = "0.92.2"
+
+  [[plugins]]
+package = "netlify-plugin-ghost-markdown"
+
+   [plugins.inputs]
+   ghostURL = "https://YOURGHOST.URL"
+   ghostKey = "YOURGHOSTKEY"
