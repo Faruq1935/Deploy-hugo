@@ -21,10 +21,9 @@ categories:
 
 Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet. Ini dapat dibantu oleh teknologi seperti Cascading Style Sheets dan bahasa scripting seperti JavaScript dan VBScript.
 
-{{< bootstrap-table table_class="table border-primary" thead_class="table-info" >}}
-| # | First          | Last     | Handle   |
-|---|----------------|----------|----------|
-| 1 | Mark           | Otto     | @mdo     |
-| 2 | Jacob          | Thornton | @fat     |
-| 3 | Larry the Bird |          | @twitter |
-{{< /bootstrap-table >}}
+{{< bootstrap-table "someclassname" >}}
+| animal | sound |
+|--------|-------|
+| dog    | meow  |
+| cat    | woof  |
+{{< /bootstrap-table > }}

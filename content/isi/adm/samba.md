@@ -14,3 +14,9 @@ categories:
 
 
 ---
+{{< bootstrap-table "someclassname" >}}
+| animal | sound |
+|--------|-------|
+| dog    | meow  |
+| cat    | woof  |
+{{< /bootstrap-table > }}
