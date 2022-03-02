@@ -18,3 +18,5 @@ paginate = 6
     topik = "topik"
     bahasa = "bahasa"
 
+[markup]
+taskLists = false
