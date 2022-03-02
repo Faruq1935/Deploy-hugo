@@ -55,14 +55,18 @@ Perintah `apt-get install` adalah perintah untuk menginstall paket di Debian.
 ```javaScript
     console.log("HELLO WORLD !");
 ```
-<table>
+
 | Nama   | Jurusan  |
 | -----  | -------- |
 | Rokhim | TKJ      |
 | Paijo  | AKL      |
-</table>
 
->Barang Kelihatan Pasti Bisa Di Kerjakan
+| Name  | Age |
+| ----- | --- |
+| Bob   | 27  |
+| Alice | 23  |
+
+> Barang Kelihatan Pasti Bisa Di Kerjakan
 
 **Tugas hari ini:**
 
