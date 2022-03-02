@@ -61,11 +61,6 @@ Perintah `apt-get install` adalah perintah untuk menginstall paket di Debian.
 | Rokhim | TKJ      |
 | Paijo  | AKL      |
 
-| Name  | Age |
-| ----- | --- |
-| Bob   | 27  |
-| Alice | 23  |
-
 > Barang Kelihatan Pasti Bisa Di Kerjakan
 
 **Tugas hari ini:**
