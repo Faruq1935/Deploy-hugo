@@ -7,7 +7,7 @@ title: "Cara Membuat from login"
 slug: css
 featured_image: "dhcp.png"
 tags:
-    - 
+    - html
 
 categories:
     - html
@@ -15,3 +15,55 @@ categories:
 
 
 ---
+
+# Satu
+## Dua
+### Tiga
+#### Empat
+##### Limo
+###### Enem
+
+**Kandel**
+*mireng*
+~~kecoret~~
+
+**Elaina X Debian**
+
+![Elaina X Debian](/static/img/debian.png)
+[link ke sinaundisik](https://sinaudhisik.netlify.app/ "Pergi ke sinaundisik.my.id")
+https://sinaudhisik.netlify.app/
+
+* Satu
+* Dua
+* Tiga
+* Empat
+* Lima
+
+1. siji
+2. Loro
+3. Telu
+4. Papat
+5. Limo
+
+- item 1
+- item 2
+- item 3
+
+Perintah `apt-get install` adalah perintah untuk menginstall paket di Debian.
+
+```javaScript
+    console.log("HELLO WORLD !");
+```
+| Nama   | Jurusan  |
+| -----  | -------- |
+| Rokhim | TKJ      |
+| Paijo  | AKL      |
+
+>Barang Kelihatan Pasti Bisa Di Kerjakan
+
+**Tugas hari ini:**
+
+- [x] Install Dan Konfigurasi Web Server Apache Di Debian 11
+- [ ] Belajar Menginstall Linux Debian 11
+- [ ] Belajar Bahasa Pemrograman PHP
+- [x] Membuat Website Portofolio Dengan Bootstrap 5
