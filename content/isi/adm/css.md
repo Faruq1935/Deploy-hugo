@@ -56,10 +56,12 @@ Perintah `apt-get install` adalah perintah untuk menginstall paket di Debian.
     console.log("HELLO WORLD !");
 ```
 
+{{< bootstrap-table "table table-dark table-striped table-bordered" >}}
 | Nama   | Jurusan  |
 | -----  | -------- |
 | Rokhim | TKJ      |
 | Paijo  | AKL      |
+{{< /bootstrap-table >}}
 
 > Barang Kelihatan Pasti Bisa Di Kerjakan
 
