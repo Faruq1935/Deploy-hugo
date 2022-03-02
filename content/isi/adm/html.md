@@ -20,10 +20,3 @@ categories:
 
 
 Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet. Ini dapat dibantu oleh teknologi seperti Cascading Style Sheets dan bahasa scripting seperti JavaScript dan VBScript.
-
-{{< bootstrap-table "someclassname" >}}
-| animal | sound |
-|--------|-------|
-| dog    | meow  |
-| cat    | woof  |
-{{< /bootstrap-table > }}
