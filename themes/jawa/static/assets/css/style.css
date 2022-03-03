@@ -50,6 +50,11 @@ nav a:hover {
 h6, .h6 {
     font-size: 1rem;
 }
+code {
+    font-size: 0.875em;
+    color: #55FF55!important;
+    word-wrap: break-word;
+}
 /* akhir artikel */
 
 /* Bagian tenteang blog */
@@ -137,6 +142,3 @@ footer span {
     color: #fff;
 }
 /* akhir footer */
-
-
-/* table markdown */

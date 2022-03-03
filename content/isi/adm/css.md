@@ -56,7 +56,7 @@ Perintah `apt-get install` adalah perintah untuk menginstall paket di Debian.
     console.log("HELLO WORLD !");
 ```
 
-{{< bootstrap-table "table table-dark table-striped table-bordered" >}}
+{{< bootstrap-table "table table table-striped table-hover border-success" >}}
 | Animal  | Sounds |
 |---------|--------|
 | Cat     | Meow   |
