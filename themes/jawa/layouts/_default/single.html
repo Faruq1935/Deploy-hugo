@@ -53,6 +53,12 @@
             s.setAttribute('data-timestamp', +new Date());
             (d.head || d.body).appendChild(s);
             })();
+            fetch('https://cors-demo.glitch.me/allow-cors', {mode:'cors'})
+
+            fetch('https://sinaundhisik.netlify.app', {
+                mode: 'cors',
+                credentials: 'include'
+              })
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
