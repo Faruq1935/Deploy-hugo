@@ -52,8 +52,23 @@ h6, .h6 {
 }
 code {
     font-size: 0.875em;
-    color: #00AA00!important;
     word-wrap: break-word;
+}
+.kontent-faruq blockquote {
+    margin: 1.5em 0;
+    padding: 1em;
+    font-family: Lato,pt sans,Roboto,sans-serif;
+    width: 100%;
+    color: #6f6f6f;
+    border-left: 4px solid silver;
+    background-color: #fafafa;
+}
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
 /* akhir artikel */
 
