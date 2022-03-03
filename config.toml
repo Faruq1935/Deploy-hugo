@@ -12,16 +12,11 @@ paginate = 6
 
 [params]
     Description = "Tanpa niat belajar tidak akan dimulai"
-    responsiveImages = false # The default is true so you only need this if you want to turn off responsive images
-linkFullImages = true # The default is false. This enables wrapping responsive images in a link the original image
-convertImagesTo = "webp" # Default is not set (no conversion). Convert all assets and page bundle images to some format (in the example, 'webp').
-# Note that when using this that the linkFullImages above will link the full size, but converted, image.
-
 [taxonomies]
     category = "categories"
     tag = "tags"
     topik = "topik"
     bahasa = "bahasa"
 
-# [markup]
-# taskLists = false
+[markup]
+taskLists = false
