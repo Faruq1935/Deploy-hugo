@@ -20,3 +20,5 @@ topik:
 
 
 ---
+
+{{ <img src="" alt="iniGambar"> }}

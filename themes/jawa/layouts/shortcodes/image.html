@@ -1,3 +1,4 @@
 {{ $image := resources.GetMatch (.Get "src") }}
-<img class="img-fluid" src="{{ ($image).RelPermalink }}"
+
+<img class="img-fluid" src="{{ ($resource.Resize "600x").RelPermalink }}"
 {{ with .Get "alt" }}alt="{{ . }}"{{ else }}alt=""{{ end }}>
