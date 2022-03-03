@@ -21,4 +21,4 @@ topik:
 
 ---
 
-{{ <img src="" alt="iniGambar"> }}
+{{< figure class="img-fluid" src="/assets/debian.png" title="Debian" >}}
