@@ -7,7 +7,7 @@ title: "Cara Membuat from login"
 slug: css
 featured_image: "dhcp.png"
 tags:
-    - 
+    - front-end
 
 categories:
     - html

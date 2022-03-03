@@ -6,7 +6,7 @@ date: 2022-01-10T21:05:34+07:00
 draft: false
 featured_image: "dhcp.png"
 tags: 
-- 
+- Administrasi Sistem Jaringan
 
 categories:
 - Jaringan Komputer

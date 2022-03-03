@@ -7,7 +7,7 @@ title: "Cara Membuat Tabel"
 slug: html
 featured_image: "dhcp.png"
 tags:
-    - 
+    - front-end
 
 categories:
     - html

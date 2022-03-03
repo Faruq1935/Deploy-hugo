@@ -7,7 +7,7 @@ title: "Cara Install Dan Konfigurasi Samba"
 slug: samba
 featured_image: "dhcp.png"
 tags:
-    - 
+    - Administrasi Sistem Jaringan
 
 categories:
     - Jaringan Komputer
