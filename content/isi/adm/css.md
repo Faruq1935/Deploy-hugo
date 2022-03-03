@@ -29,10 +29,11 @@ categories:
 
 **Elaina X Debian**
 
-<img src="https://sinaudhisik.netlify.app/images/smk.png" class="img-fluid" alt="...">
+<img src="https://sinaudhisik.netlify.app/images/smk.png" class="img-fluid" alt="imgsaya">
 
 
 [link ke sinaundisik](https://sinaudhisik.netlify.app/ "Pergi ke sinaundisik.my.id")
+
 https://sinaudhisik.netlify.app/
 
 * Satu
