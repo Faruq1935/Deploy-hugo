@@ -8,7 +8,7 @@ paginate = 6
     name = "M Faruq Syarifudin"
     homepage = "https://web.facebook.com/profile.php?id=100009944859170"
     bio = "Game for fun"
-    image = "/assets/img/download.jfif"
+    image = "/assets/image/download.jfif"
 
 [params]
     Description = "Tanpa niat belajar tidak akan dimulai"
