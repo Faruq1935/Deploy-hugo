@@ -1,1 +1,1 @@
-<img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+{{- partial "helpers/responsive-images" (dict "alt" .Text "title" .Title "destination" .Destination "page" .Page "addLink" true) -}}
