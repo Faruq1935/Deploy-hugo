@@ -29,7 +29,7 @@ categories:
 
 **Elaina X Debian**
 
-![Gambar Elaina X Debian](/public/assets/img/jumbotron.png)
+![Gambar Elaina X Debian](https://sinaudhisik.netlify.app/img/dhcp.png)
 
 [link ke sinaundisik](https://sinaudhisik.netlify.app/ "Pergi ke sinaundisik.my.id")
 https://sinaudhisik.netlify.app/
