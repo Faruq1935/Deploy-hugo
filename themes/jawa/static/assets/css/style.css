@@ -57,7 +57,7 @@ code {
 .kontent-faruq blockquote {
     margin: 1.5em 0;
     padding: 1em;
-    font-family: Lato,pt sans,Roboto,sans-serif;
+    font-family: inherit;
     width: 100%;
     color: #6f6f6f;
     border-left: 4px solid silver;
