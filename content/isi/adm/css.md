@@ -52,7 +52,7 @@ https://sinaudhisik.netlify.app/
 
 Perintah `apt-get install` adalah perintah untuk menginstall paket di Debian.
 
-```javaScript
+```javascript
     console.log("HELLO WORLD !");
 ```
 
