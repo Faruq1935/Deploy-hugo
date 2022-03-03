@@ -29,8 +29,7 @@ categories:
 
 **Elaina X Debian**
 
-<img src="https://sinaudhisik.netlify.app/images/smk.png" class="img-fluid" alt="imgsaya">
-
+{{ <img src="/assets/img/smk.png" alt="iniGambar"> }}
 
 [link ke sinaundisik](https://sinaudhisik.netlify.app/ "Pergi ke sinaundisik.my.id")
 
