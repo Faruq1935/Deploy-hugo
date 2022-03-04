@@ -75,6 +75,7 @@ blockquote {
     margin-inline-end: 40px;
 }
 .kontent-faruq pre {
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     padding: 1em;
     margin-bottom: 1.75rem;
