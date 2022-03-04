@@ -74,6 +74,15 @@ blockquote {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
+.kontent-faruq pre {
+    font-weight: 500;
+    padding: 1em;
+    margin-bottom: 1.75rem;
+    font-size: .9rem;
+    white-space: pre;
+    border-radius: 8px;
+    line-height: 1.5em;
+}
 /* akhir artikel */
 
 /* Bagian tenteang blog */
