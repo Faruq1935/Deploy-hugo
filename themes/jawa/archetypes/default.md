@@ -21,4 +21,6 @@ topik:
 
 ---
 
-{{< figure class="img-fluid" src="/assets/debian.png" title="Debian" >}}
+<!-- ini untuk mengatur besar kecilnya gambar dengan memberi width-->
+{{< figure class="mb-3" width="" src="/assets/debian.png" title="Debian" >}}
+<!-- ini untuk mengatur besar kecilnya gambar dengan memberi width-->

@@ -29,7 +29,13 @@ categories:
 
 **Elaina X Debian**
 
-{{< figure class="mb-3" src="/assets/image/debian.png" >}}
+<!-- ini untuk mengatur besar kecilnya gambar dengan memberi width-->
+{{< figure class="mb-3 text-center" width="150px" src="/assets/image/smk.png" >}}
+<!-- ini untuk mengatur besar kecilnya gambar dengan memberi width-->
+
+![ini gambar debian x elaina](/assets/image/debian.png)
+
+<!-- ![ini gambar elaina]() -->
 
 [link ke sinaundisik](https://sinaudhisik.netlify.app/ "Pergi ke sinaundisik.my.id")
 
@@ -72,4 +78,4 @@ Perintah `apt-get install` adalah perintah untuk menginstall paket di Debian.
 - [x] Install Dan Konfigurasi Web Server Apache Di Debian 11
 - [ ] Belajar Menginstall Linux Debian 11
 - [ ] Belajar Bahasa Pemrograman PHP
-- [x] Membuat Website Portofolio Dengan Bootstrap 5
+- [x] Membuat Website Portofolio Dengan Framework Bootstrap 5

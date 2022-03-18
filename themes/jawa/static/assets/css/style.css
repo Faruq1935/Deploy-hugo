@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
 body {
     background-color: #C7F9CC;
+    max-height: 9999!important;
 }
 * {
     font-family: 'Inter', sans-serif;
-}
-img {
-    max-width: 100%;
-    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .font-weight-bold {
     font-weight: 700!important;
@@ -45,9 +46,6 @@ nav a:hover {
     font-weight: bold;
     font-size: 32px;
 }
-.font-content, .card-text {
-    text-align: justify;
-}
 .img-index {
     border-radius: 8px!important;
 }
@@ -75,7 +73,7 @@ blockquote {
     margin-inline-end: 40px;
 }
 .kontent-faruq pre {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-weight: 500;
     padding: 1em;
     margin-bottom: 1.75rem;
@@ -83,6 +81,10 @@ blockquote {
     white-space: pre;
     border-radius: 8px;
     line-height: 1.5em;
+}
+p img {
+    max-width: 100%;
+    height: auto;
 }
 /* akhir artikel */
 
@@ -104,7 +106,7 @@ blockquote {
 }
 .kategori-aside {
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #57cc99;
 }
 .h5-kategori {
@@ -154,7 +156,12 @@ blockquote {
     margin-left: 7em;
 }
 /* akhir kategori */
+
 /* ======= */
+@media (max-width: 576px) {
+    max-width: 540px;
+}
+
 /* ======= */
 
 /* Bagian footer */
