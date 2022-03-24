@@ -4,7 +4,7 @@
     <a class="navbar-brand" href="{{.Site.BaseURL}}"><img class="rounded" src="/assets/image/jumbotron.png" alt="" width="30" height="30"> {{ .Site.Title }}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> 
     <div class="collapse navbar-collapse" id="navbarScroll" style="color: #fff;">
       <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll ms-auto" style="--bs-scroll-height: 100px;">
         <li class="nav-item nav-icons">
@@ -26,7 +26,7 @@
           <a class="nav-link" href="#"  style="color: #fff;"><i class="fas fa-list-alt"></i> Kategori</a>
         </li>  
       </ul>
-      <form class="d-flex" style="margin-left: 5%;">
+      <form class="d-flex ms-3">
         <input class="form-control me-2" type="search" placeholder="Mau cari artikel apa ?" aria-label="Search">
         <button class="btn btn-light" type="submit"><i class="fas fa-search"></i></button>
       </form>
@@ -38,15 +38,16 @@
 <header class="jumbotron jumbotron-fluid mt-5 jumbotron-body">
   <div class="container">
     <div class="row">
-      <div class="my-5 text-center">
+      <div class="my-5 text-start">
+        {{/*  <p class="text-end">
           <img class="img-jumbotron" src="/assets/image/jumbotron.png" alt="">
+        </p>  */}}
           <h1 class="display-4 font-weight-bold">sinaudhisik</h1>
           <p class="lead text-muted" style="margin-top: -15px;">Budayakan <strong class="font-weight-bold">membaca</strong> <i>(sampai paham)</i></p>
-          <div class="mt-4">   
       </div>
-      </div>
-      <div class="col-lg-6 d-none d-lg-block">
-      </div>
+      {{/*  <div class="container kopi-hangat">
+        <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 95.1H0c0 123.8 100.3 224 224 224v128C224 465.6 238.4 480 255.1 480S288 465.6 288 448V320C288 196.3 187.7 95.1 64 95.1zM448 32c-84.25 0-157.4 46.5-195.8 115.3c27.75 30.12 48.25 66.88 59 107.5C424 243.1 512 147.9 512 32H448z"/></svg>
+      </div>  */}}
     </div>
   </div>
 </header>

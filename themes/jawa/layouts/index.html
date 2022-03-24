@@ -4,10 +4,8 @@
   <div class="row">
     <div class="container artikel-body pt-5">
       <div class="row mb-5">
-        <div class="">
            <h2 class="h2">Artikel Terbaru</h2>
-            <p class="lead text-muted">Mau cari artikel apa ?</p>
-        </div>
+            <p class="lead text-muted kecil">Mau cari artikel apa ?</p>
     </div>
   </div>
       {{ range (.Paginate (where .Site.RegularPages "Section" "isi")).Pages }}
@@ -60,7 +58,7 @@
   <div class="text-center row my-5">
     <div class="col-12">
     <h2 class="h2">Artikel Berdasarkan Kategori</h2>
-    <p class="lead text-muted">Cari Artikel Yang Kamu Ingin Baca</p>
+    <p class="lead text-muted kecil">Cari Artikel Lebih Mudah Berdasarkan Kategori</p>
     </div>
   </div>
   <div class="row">
@@ -73,15 +71,23 @@
     <div class="list-group list-group-flush shadow-sm">
       <a href="{{ .Permalink }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="flex-kontent">
-          <h6 class="my-1 h6">{{ .Title }}</h6>
+          <h6 class="flex-fill bd-highlight py-2 text-capitalize h6-kontent ">{{ .Title }}</h6>
           <div class="flex-gambar-kontent">
-            <img class="my-1 me-1 gambar-kategori" src="/assets/image/sid.png" width="60px" height="60px" alt="">
+            <img class="my-1 me-1 gambar-kategori" src="/assets/image/smk.png" width="60px" height="60px" alt="">
           </div>
         </div>
       </a>
     </div>
     {{end}}
+  <!-- Pagination -->
+  <div class="container mb-4">
+    <p class="kategori-lengkap my-1 text-end">
+      <a class="akategori-lengkap" href="/categories/{{ $name }}">Lihat lebih banyak ---></a>
+    </p>
   </div>
+  <!-- Akhir Bagian Pagination -->
+  </div>
+
   {{ end }}
 </div>
 </div>

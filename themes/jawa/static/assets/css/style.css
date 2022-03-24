@@ -35,6 +35,12 @@ nav a:hover {
 .jumbotron h1  {
     color: #000;
 }
+.kopi-hangat svg {
+    margin-left: 50em;
+    margin-top: -5.7em;
+    position: absolute;
+}
+}
 /* akhir jumbotron */
 
 /* Bagian artikel */
@@ -49,9 +55,9 @@ nav a:hover {
 .img-index {
     border-radius: 8px!important;
 }
-h6, .h6 {
+/* h6, .h6 {
     font-size: 1rem;
-}
+} */
 code {
     font-size: 0.875em;
     word-wrap: break-word;
@@ -92,8 +98,6 @@ p img {
 .tentang-blog {
     background-color: #def7e2;
 }
-
-
 /* akhir tentang blog */
 
 /* Bagian sidebar */
@@ -145,22 +149,34 @@ p img {
     background-color: #fff;
     border-color: #dee2e6;
 }
+.kategori-lengkap, .akategori-lengkap {
+    color: #000;
+    text-decoration: none;
+}
+.akategori-lengkap:hover {
+    text-decoration: underline;
+    color: #57cc99!important;
+}
 /* akhir pagination */
 
 /* Bgian kategori */
 .flex-kontent {
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-end; */
 }
-.flex-gambar-kontent {
-    margin-left: 7em;
+.h6-kontent:hover {
+    text-decoration: underline;
+}
+.kecil{
+    font-size: 18px!important;
+}
+.jarak-nav {
+    margin-top: 7em;
 }
 /* akhir kategori */
 
 /* ======= */
-@media (max-width: 576px) {
-    max-width: 540px;
-}
+
 
 /* ======= */
 
