@@ -34,6 +34,9 @@
                     <div class="kontent-faruq center">
                         {{ .Content }}
                     </div>
+                   <h5 class="fw-bold">Share :</h5>
+                   <button type="button" class="btn btn-primary">
+                   <a href="#" class="share-facebook text-white">Facebook</a></button>
                 </div>
         </article>
         <div id="disqus_thread"></div>
@@ -89,4 +92,19 @@
         </aside>  
     </div>
 </div>
+<script>
+// Fungsi untuk membagikan ke Facebook
+
+function shareFacebook() {
+
+  window.open('https://www.facebook.com/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank');
+
+}
+
+
+
+// Tambahkan event listener pada tombol share
+
+document.querySelector('.share-facebook').addEventListener('click', shareFacebook);
+</script>
 {{end}}
