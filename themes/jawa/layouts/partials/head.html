@@ -6,6 +6,13 @@
     {{ template "_internal/schema.html" . }}
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
+    <meta property="og:title" content="Judul Artikel Anda">
+
+<meta property="og:description" content="{{ or .Params.description .Summary }}">
+
+<meta property="og:image" content="/image/{{ .Params.featured_image }}">
+
+<meta property="og:url" content="{{ .Permalink }}">
 
 <!-- css ku -->
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
